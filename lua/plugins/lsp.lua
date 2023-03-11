@@ -32,7 +32,7 @@ return {
       {
         "jay-babu/mason-null-ls.nvim",
         cmd = { "NullLsInstall", "NullLsUninstall" },
-        opts = { automatic_setup = true },
+        opts = { automatic_setup = false },
         config = require "plugins.configs.mason-null-ls",
       },
     },
