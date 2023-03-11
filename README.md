@@ -3,13 +3,13 @@
 ### UNIX
 
 ```bash
-git clone --depth 1 git@github.com/donny-son/AstroNvim ~/.config/nvim
+git clone --depth 1 git@github.com:donny-son/AstroNvim ~/.config/nvim
 ```
 
 ### Windows 
 
 ```Powershell
-git clone --depth 1 git@github.com/donny-son/AstroNvim $env:LOCALAPPDATA\nvim
+git clone --depth 1 git@github.com:donny-son/AstroNvim $env:LOCALAPPDATA\nvim
 ```
 
 ## Resources
