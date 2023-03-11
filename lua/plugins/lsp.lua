@@ -1,6 +1,12 @@
 return {
   "b0o/SchemaStore.nvim",
   {
+    'tzachar/cmp-tabnine',
+    build = './install.sh',
+    dependencies = 'hrsh7th/nvim-cmp',
+    config = "plugins.configs.tabnine"
+  },
+  {
     "folke/neodev.nvim",
     opts = {
       override = function(root_dir, library)
